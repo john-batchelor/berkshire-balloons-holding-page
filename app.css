@@ -95,7 +95,7 @@ img.screenshot
     margin-top:0;
 }
 
-#app h1, #app p
+#app h1, #app p, #app h4
 {
     padding: 12px 18px;
 }
@@ -108,4 +108,30 @@ img.screenshot
 .cta
 {
     padding: 12px 10px;
+}
+
+@media (max-width: 700px) {
+    #app
+    {
+        width: 100%;
+    }
+
+    .cta-item img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .cta-item
+    {
+        margin: 50px;
+    }
+
+    .cta-item .img-wrapper::after
+    {
+        width: 100%;
+    }
+
+    .cta-item .btn{
+        font-size: 36px;
+    }
 }
