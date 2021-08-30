@@ -135,3 +135,15 @@ img.screenshot
         font-size: 36px;
     }
 }
+
+@media(max-width: 480px)
+{
+    .cta-item .btn{
+        font-size: 25px;
+    }
+
+    .cta-item
+    {
+        margin: 5%;
+    }
+}
